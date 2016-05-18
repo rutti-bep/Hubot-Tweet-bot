@@ -218,6 +218,6 @@ you're having issues.
 /bin/hubot内にツイッターのトークンを記述。
 /scripts/tweet-bot.coffee内の10行目 の "" の部分を適当な文字を入れる。
 tweet-bot.shもしくは/bin/hubotで起動
-## (たぶん)必要なパッケージ
+## (多分)必要なパッケージ
 forever,cron,moment
 他にもあった気がするから適時入れて
