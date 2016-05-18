@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+npm install
+
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export HUBOT_TWITTER_KEY=""
+export HUBOT_TWITTER_SECRET=""
+export HUBOT_TWITTER_TOKEN=""
+export HUBOT_TWITTER_TOKEN_SECRET=""
+export HUBOT_NAME=""
+ 
+forever start -c coffee node_modules/.bin/hubot -a twitter
+#exec node_modules/.bin/hubot --name "tweet-bot" "$@"
