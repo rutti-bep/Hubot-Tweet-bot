@@ -214,10 +214,10 @@ You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
 
 # Hubot-Tweet-bot
-使い方
-/bin/hubot内にツイッターのトークンを記述。
-/scripts/tweet-bot.coffee内の10行目 の "" の部分を適当な文字を入れる。
-tweet-bot.shもしくは/bin/hubotで起動
-## (多分)必要なパッケージ
-forever,cron,moment
-他にもあった気がするから適時入れて
+使い方  
+/bin/hubot内にツイッターのトークンを記述。  
+/scripts/tweet-bot.coffee内の10行目 の "" の部分を適当な文字を入れる。  
+tweet-bot.shもしくは/bin/hubotで起動  
+## (多分)必要なパッケージ  
+forever,cron,moment  
+他にもあった気がするから適時入れて  
